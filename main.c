@@ -115,6 +115,7 @@ int main() {
             int xc, yc, r;
             printf("Enter center_x center_y radius: ");
             scanf("%d %d %d", &xc, &yc, &r);
+            
             drawCircle(xc, yc, r);
         } else if (choice == 4) {
             int x1, y1, x2, y2, x3, y3;
